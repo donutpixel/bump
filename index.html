@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bump Mockup</title>
+    <script src="res/script/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src='res/script/slimscroll.min.js'></script>
+    <script src='res/script/main.js'></script>
+    <script src="https://use.fontawesome.com/ee5fbdbaa6.js"></script>
+    <link rel="stylesheet" href="res/style/main.css">
+  </head>
+  <body>
+    <center>
+      <div id='phone'>
+        <div class='topBar'>
+        </div>
+        <div class='screen'>
+          <iframe src="feed.html" class='content'></iframe>
+            <ul class='navbar'>
+              <li id = 'feed' onclick="setScreen('feed')"><i class="fa fa-bars" aria-hidden="true"></i></li>
+              <li id = 'post' onclick="setScreen('post')"><i class="fa fa-plus" aria-hidden="true"></i></li>
+              <li id = 'discover' onclick="setScreen('discover')"><i class="fa fa-search" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class='bottomBar'>
+        </div>
+      </div>
+    </center>
+
+  </body>
+</html>
